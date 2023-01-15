@@ -6,27 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #unico  h1{
-            font-size: 1rem;
-            color: orange;
+        .laranja{
+            background-color: orange;
+            width: 60px;
+            height: 50px;
+            z-index: 1;
+            margin: auto;
         }
-        .card{
-            border: 10px;
+        .azul{
+            background-color: rgb(24, 161, 224);
+            width: 50px;
+            height: 50px;
+            z-index: 2;
         }
+        
     </style>
 </head>
 <body>
-    <div  id="unico" class="container">
-        <div class="card">
-            <h1>Todo List</h1>
-            <ul contenteditable="true">
-                <li>
-                    Clique para adicionar um item.
-                </li>
-                
-            </ul>
+    <div class="laranja">
+        <div class="azul">
+
         </div>
+
     </div>
+    
     
 </body>
 </html>
