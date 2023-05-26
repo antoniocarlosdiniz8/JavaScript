@@ -1,14 +1,8 @@
-
-/*var n1 = 1
-var n2 = 3
-
-let soma = Number(n1) + Number(n2)
-
-console.log(`A soma entre ${n1} e ${n2} é : ${soma}`)*/
-
-numero = 5 + 3 / 2
-
-//console.log(10 == 10)
-//console.log(10 == '10')
-//console.log(10 === '10')
-console.log(numero)
+const somar = (num1, num2) => {
+    return num1 - num2
+  }
+  
+  // Exemplo de uso da função:
+  const resultado = somar(5, 3)
+  console.log(`O resultado é ${resultado}`)// Vai imprimir 8 no console
+  
