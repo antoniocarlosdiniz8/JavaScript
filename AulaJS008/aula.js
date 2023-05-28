@@ -1,7 +1,8 @@
-var a = 3
-var b = 5
+const nome = 'João'
+
+//const nome = 'Maria'
+
+console.log(nome)
 
 
-const sum = (a, b) => a + b
 
-console.log(sum)
