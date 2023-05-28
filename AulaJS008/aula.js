@@ -1,8 +1,9 @@
-const nome = 'João'
+var a = 5
+var b = 3
 
-//const nome = 'Maria'
+function somatDois(a, b){
+    return a + b
+}
 
-console.log(nome)
-
-
+console.log(somatDois)
 
