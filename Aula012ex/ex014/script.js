@@ -6,7 +6,7 @@
 
     //var hora = data.getHours()
 
-    var hora = 13
+    var hora = 7
 
     msg.innerHTML = `Agora são ${hora} horas`
 
