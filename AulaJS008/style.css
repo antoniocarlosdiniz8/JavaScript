@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    background-color: darkkhaki;
+}
+
+h1{
+    text-align: center;
+}
+h1:hover{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    margin-left: 15px;
+    /*letter-spacing: 5px;*/
+    word-spacing: 10px;
+}
