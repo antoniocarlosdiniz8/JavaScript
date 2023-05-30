@@ -4,9 +4,9 @@
 
     data = new Date()
 
-    //var hora = data.getHours()
+    var hora = data.getHours()
 
-    var hora = 7
+    //var hora = 7
 
     msg.innerHTML = `Agora são ${hora} horas`
 
