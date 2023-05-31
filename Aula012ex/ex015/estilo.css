@@ -21,6 +21,30 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.308);
 
 }
+#para{
+    font-size: 1.5rem;
+}
+#iano{
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: moccasin;
+    margin-left: 20px;
+}
+#set{
+    font-size: 1.5rem;
+}
+#butan{
+    background-color: rgb(224, 224, 9);
+    border-radius: 10px;
+    width: 60px;
+    height: 35px;
+    box-shadow: none;
+
+}
+#butan:hover{
+    background-color: rgb(36, 219, 36);
+}
 #res{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
