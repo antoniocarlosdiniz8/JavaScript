@@ -1,40 +1,46 @@
 @charset "UTF-8";
 
-body{
+body {
     background-color: rgb(115, 197, 230);
 
 }
-header{
+
+header {
     margin: auto;
     text-align: center;
     color: white;
-    
+
 
 }
-section{
+
+section {
     background-color: white;
     border-radius: 10px;
-    height: 300px;
+    height: 600px;
     width: 500px;
     padding: 15px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.308);
 
 }
-#para{
+
+#para {
     font-size: 1.5rem;
 }
-#iano{
+
+#iano {
     width: 60px;
     height: 25px;
     border-radius: 10px;
     background-color: moccasin;
     margin-left: 20px;
 }
-#set{
+
+#set {
     font-size: 1.5rem;
 }
-#butan{
+
+#butan {
     background-color: rgb(224, 224, 9);
     border-radius: 10px;
     width: 60px;
@@ -42,14 +48,25 @@ section{
     box-shadow: none;
 
 }
-#butan:hover{
+
+#butan:hover {
     background-color: rgb(36, 219, 36);
 }
-#res{
+
+#res {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+
 }
-footer{
+
+#foto {
+    width: 50%;
+    height: 50%;
+
+}
+
+
+
+footer {
     color: white;
     text-align: center;
 
