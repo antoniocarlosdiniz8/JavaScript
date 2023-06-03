@@ -1,9 +1,6 @@
-var a = 5
-var b = 3
+const pizzas = ['Calabresa', 'Queijo', 'Mussarela', 'Portuguesa', 'Marguerita']
 
-function somatDois(a, b){
-    return a + b
-}
+const foundPizza = pizzas.find(p => p.startsWith('P'))
 
-console.log(somatDois)
+console.log(foundPizza)
 
