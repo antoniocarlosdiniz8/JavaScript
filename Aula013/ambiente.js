@@ -1,5 +1,6 @@
-//let c = 1
 
-let nome = 'Antonio'
-
-console.log(`Seu nome: ${nome} tem ${nome.length} letras`)
+console.log('Vai começar...')
+for (var c = 1; c <= 5; c++) {
+    console.log(c)
+}
+console.log('Terminou...')
