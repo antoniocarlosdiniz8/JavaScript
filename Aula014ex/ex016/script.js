@@ -9,15 +9,28 @@ function contar() {
     if (ini.value.length == 0 || fim.value.length == 0 || pas.value.length == 0) {
         alert('Preencha os dados para continuar!')
     } else {
-        //res.innerHTML = 'Contando....'
         let i = parseInt(ini.value)
         let f = parseInt(fim.value)
         let p = parseInt(pas.value)
-
-        for (let c = i; c <= f; c += p) {
-            res.innerHTML += `${c} \u{1F600}`
+        if (p <= 0) {
+            alert('Impossível contar com passo 0, considere passo 1')
+            p = 1
         }
-        res.innerHTML += `\u{1F911}`
+
+        if (i < f) {
+            for (let c = i; c <= f; c += p) {
+                res.innerHTML += `${c} \u{1F449}`
+            }
+
+        } else {
+            for (let c = i; c >= f; c -= p) {
+                res.innerHTML += `${c} \u{1F449}`
+
+            }
+        }
+
+
+        res.innerHTML += `\u{1F3C1}`
 
 
     }
