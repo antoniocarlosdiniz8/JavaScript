@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Hora do dia</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
     <header>
         <h1>Título</h1>
@@ -14,11 +16,15 @@
     </header>
     <section>
         <div>
-            Testando...
+            <label for="itabu">Tabuada de: </label>
+            <input type="number" name="tabu" id="itabu">
+            <input type="submit" value="Gerar" onclick="tabuada()">
 
         </div>
-        <div>
-            Olá..
+        <div id="msg">
+            <select name="tabuada" id="seltab">
+                <option>Digite um numero ai</option>
+            </select>
 
         </div>
     </section>
@@ -27,6 +33,7 @@
 
     </footer>
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>
