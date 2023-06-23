@@ -1,21 +1,25 @@
 function tabuada() {
-    let num = document.getElementById('itabu')
+    let num = document.getElementById('txtn')
     let tab = document.getElementById('seltab')
 
-    let resp = document.getElementById('msg')
 
 
-    if (num.value == 0) {
+
+    if (num.value.length == 0) {
         alert('Digite alguma coisa para continuar!')
     } else {
         let n = Number(num.value)
-        for (i = 1; i <= 10; i++) {
+        let c = 1
+        while (c <= 10) {
             let item = document.createElement('option')
-            item.text = `${n} x ${i} = ${n * i}`
+            item.text = `${n} x ${c} = ${n * c}`
+            //item.value = `tab${c}`
             tab.appendChild(item)
+            c++
 
         }
     }
+}
 
 
 
